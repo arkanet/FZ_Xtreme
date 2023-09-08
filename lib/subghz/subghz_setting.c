@@ -40,6 +40,7 @@ static const uint32_t subghz_frequency_list[] = {
     /* 387 - 464 */
     387000000,
     390000000,
+    402700000, /*Radiosonde*/
     418000000,
     430000000,
     431000000,
@@ -82,6 +83,9 @@ static const uint32_t subghz_hopper_frequency_list[] = {
     418000000,
     433920000,
     868350000,
+    868400000, /*Custom*/
+    868800000, /*Custom*/
+    868950000, /*Custom*/
     0,
 };
 
